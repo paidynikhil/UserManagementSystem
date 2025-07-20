@@ -8,7 +8,7 @@ const router = express.Router();
 router.get(
   "/tree",
   authMiddleware,
-  allowRoles("admin", "sub-admin"),
+  allowRoles("admin", "sub-admin", "user"),
   getHierarchyTree
 );
 
