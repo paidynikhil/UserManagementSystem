@@ -1,6 +1,6 @@
 import { LoginRequest, SignupRequest, ApiResponse, AuthData, SubAdmin } from '../types';
 
-const API_BASE_URL = 'http://localhost:6003/api';
+const API_BASE_URL = 'https://usermanagementsystem-m8r2.onrender.com/api';
 
 class ApiService {
   private getHeaders(includeAuth = false) {
