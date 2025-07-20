@@ -13,7 +13,7 @@ const userSchema = new mongoose.Schema(
     parent: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "User",
-      default: null, // Will be set during signup
+      default: null,
     },
   },
   { timestamps: true }
